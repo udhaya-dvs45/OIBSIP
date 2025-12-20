@@ -66,6 +66,7 @@ input_df = pd.DataFrame([{
 if st.button("PREDICTION"):
     price=pipe.predict(input_df)
     st.write(f"THE PRICE IS {int(price[0]):,}")
+    st.image(r"C:\Users\Udhaya kiran\OneDrive\Desktop\oasisinfobyte_tasks\Task-3\CAR_PRICE.png.png",use_container_width=True)
 
 
 
